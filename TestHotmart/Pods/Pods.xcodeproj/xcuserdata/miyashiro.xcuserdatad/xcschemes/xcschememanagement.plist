@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>JSONJoy-Swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TestHotmart.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TestHotmartTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TestHotmartUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SlideMenuControllerSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>10222EEC2418245C4E68A8F51A0B2626</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>75F645703CB704DDE3104E3BC45FFD6A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C6169220DD7226ECA7F5B38E8ACD7B23</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E9E710F048A759A9EA647A7C0BDAA1F6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F3D32AFC86F9B0324118E8A656035804</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

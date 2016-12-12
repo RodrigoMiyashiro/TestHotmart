@@ -1,0 +1,15 @@
+PODS:
+  - JSONJoy-Swift (3.0.0)
+  - SlideMenuControllerSwift (3.0.1)
+
+DEPENDENCIES:
+  - JSONJoy-Swift
+  - SlideMenuControllerSwift
+
+SPEC CHECKSUMS:
+  JSONJoy-Swift: 103a44ba04f2219112d01dcaab5754a081d7c07f
+  SlideMenuControllerSwift: 9a163b16d54afab734add42858cba7ef7c307755
+
+PODFILE CHECKSUM: 11cf522ebf7637ea5b13ca996704a2862d028add
+
+COCOAPODS: 1.2.0.beta.1

@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09D75650C42410A587716CEB /* Pods_TestHotmartUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B172677930D86358656759 /* Pods_TestHotmartUITests.framework */; };
+		1C0268B4BD6FF825C84B93C1 /* Pods_TestHotmartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA059EE3742606F1341C6C50 /* Pods_TestHotmartTests.framework */; };
+		C605445D1DFE7588003CEB73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C605445C1DFE7588003CEB73 /* AppDelegate.swift */; };
+		C605445F1DFE7588003CEB73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C605445E1DFE7588003CEB73 /* ViewController.swift */; };
+		C60544621DFE7588003CEB73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60544601DFE7588003CEB73 /* Main.storyboard */; };
+		C60544641DFE7588003CEB73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60544631DFE7588003CEB73 /* Assets.xcassets */; };
+		C60544671DFE7588003CEB73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60544651DFE7588003CEB73 /* LaunchScreen.storyboard */; };
+		C60544721DFE7588003CEB73 /* TestHotmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544711DFE7588003CEB73 /* TestHotmartTests.swift */; };
+		C605447D1DFE7588003CEB73 /* TestHotmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C605447C1DFE7588003CEB73 /* TestHotmartUITests.swift */; };
+		F3838CEE67DFB0D469DFF566 /* Pods_TestHotmart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65691AF26468D0A160F048AB /* Pods_TestHotmart.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C605446E1DFE7588003CEB73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C60544511DFE7588003CEB73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C60544581DFE7588003CEB73;
+			remoteInfo = TestHotmart;
+		};
+		C60544791DFE7588003CEB73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C60544511DFE7588003CEB73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C60544581DFE7588003CEB73;
+			remoteInfo = TestHotmart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		328AC9EEBC580EAE5DBDE622 /* Pods-TestHotmartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHotmartTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestHotmartTests/Pods-TestHotmartTests.release.xcconfig"; sourceTree = "<group>"; };
+		65691AF26468D0A160F048AB /* Pods_TestHotmart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestHotmart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76B172677930D86358656759 /* Pods_TestHotmartUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestHotmartUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91CF9E3AB1F32F8ED099A7B7 /* Pods-TestHotmart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHotmart.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestHotmart/Pods-TestHotmart.release.xcconfig"; sourceTree = "<group>"; };
+		984356226D0BA9A1E948CF7A /* Pods-TestHotmart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHotmart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestHotmart/Pods-TestHotmart.debug.xcconfig"; sourceTree = "<group>"; };
+		9B8364962C52D7DE5C86347F /* Pods-TestHotmartUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHotmartUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestHotmartUITests/Pods-TestHotmartUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ADA7D80F9DB01425CC596206 /* Pods-TestHotmartUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHotmartUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestHotmartUITests/Pods-TestHotmartUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C60544591DFE7588003CEB73 /* TestHotmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestHotmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C605445C1DFE7588003CEB73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C605445E1DFE7588003CEB73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C60544611DFE7588003CEB73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C60544631DFE7588003CEB73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C60544661DFE7588003CEB73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C60544681DFE7588003CEB73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C605446D1DFE7588003CEB73 /* TestHotmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestHotmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60544711DFE7588003CEB73 /* TestHotmartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHotmartTests.swift; sourceTree = "<group>"; };
+		C60544731DFE7588003CEB73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C60544781DFE7588003CEB73 /* TestHotmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestHotmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C605447C1DFE7588003CEB73 /* TestHotmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHotmartUITests.swift; sourceTree = "<group>"; };
+		C605447E1DFE7588003CEB73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA059EE3742606F1341C6C50 /* Pods_TestHotmartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestHotmartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5D208130B2DE67FB6FE306 /* Pods-TestHotmartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHotmartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestHotmartTests/Pods-TestHotmartTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C60544561DFE7588003CEB73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3838CEE67DFB0D469DFF566 /* Pods_TestHotmart.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C605446A1DFE7588003CEB73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C0268B4BD6FF825C84B93C1 /* Pods_TestHotmartTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60544751DFE7588003CEB73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D75650C42410A587716CEB /* Pods_TestHotmartUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12343CAD25A3BFE1D9066530 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				984356226D0BA9A1E948CF7A /* Pods-TestHotmart.debug.xcconfig */,
+				91CF9E3AB1F32F8ED099A7B7 /* Pods-TestHotmart.release.xcconfig */,
+				DB5D208130B2DE67FB6FE306 /* Pods-TestHotmartTests.debug.xcconfig */,
+				328AC9EEBC580EAE5DBDE622 /* Pods-TestHotmartTests.release.xcconfig */,
+				9B8364962C52D7DE5C86347F /* Pods-TestHotmartUITests.debug.xcconfig */,
+				ADA7D80F9DB01425CC596206 /* Pods-TestHotmartUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C60544501DFE7588003CEB73 = {
+			isa = PBXGroup;
+			children = (
+				C605445B1DFE7588003CEB73 /* TestHotmart */,
+				C60544701DFE7588003CEB73 /* TestHotmartTests */,
+				C605447B1DFE7588003CEB73 /* TestHotmartUITests */,
+				C605445A1DFE7588003CEB73 /* Products */,
+				12343CAD25A3BFE1D9066530 /* Pods */,
+				EDCD7F3CB3DD38FF03A4163E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C605445A1DFE7588003CEB73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C60544591DFE7588003CEB73 /* TestHotmart.app */,
+				C605446D1DFE7588003CEB73 /* TestHotmartTests.xctest */,
+				C60544781DFE7588003CEB73 /* TestHotmartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C605445B1DFE7588003CEB73 /* TestHotmart */ = {
+			isa = PBXGroup;
+			children = (
+				C605445C1DFE7588003CEB73 /* AppDelegate.swift */,
+				C605445E1DFE7588003CEB73 /* ViewController.swift */,
+				C60544601DFE7588003CEB73 /* Main.storyboard */,
+				C60544631DFE7588003CEB73 /* Assets.xcassets */,
+				C60544651DFE7588003CEB73 /* LaunchScreen.storyboard */,
+				C60544681DFE7588003CEB73 /* Info.plist */,
+			);
+			path = TestHotmart;
+			sourceTree = "<group>";
+		};
+		C60544701DFE7588003CEB73 /* TestHotmartTests */ = {
+			isa = PBXGroup;
+			children = (
+				C60544711DFE7588003CEB73 /* TestHotmartTests.swift */,
+				C60544731DFE7588003CEB73 /* Info.plist */,
+			);
+			path = TestHotmartTests;
+			sourceTree = "<group>";
+		};
+		C605447B1DFE7588003CEB73 /* TestHotmartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C605447C1DFE7588003CEB73 /* TestHotmartUITests.swift */,
+				C605447E1DFE7588003CEB73 /* Info.plist */,
+			);
+			path = TestHotmartUITests;
+			sourceTree = "<group>";
+		};
+		EDCD7F3CB3DD38FF03A4163E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65691AF26468D0A160F048AB /* Pods_TestHotmart.framework */,
+				DA059EE3742606F1341C6C50 /* Pods_TestHotmartTests.framework */,
+				76B172677930D86358656759 /* Pods_TestHotmartUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C60544581DFE7588003CEB73 /* TestHotmart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60544811DFE7588003CEB73 /* Build configuration list for PBXNativeTarget "TestHotmart" */;
+			buildPhases = (
+				CAE192B38CFEB547A39F34BE /* [CP] Check Pods Manifest.lock */,
+				C60544551DFE7588003CEB73 /* Sources */,
+				C60544561DFE7588003CEB73 /* Frameworks */,
+				C60544571DFE7588003CEB73 /* Resources */,
+				2A013DCE5A2F7B40F7AF124E /* [CP] Embed Pods Frameworks */,
+				5CBFFB425510B0CF6C8B8E3A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestHotmart;
+			productName = TestHotmart;
+			productReference = C60544591DFE7588003CEB73 /* TestHotmart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C605446C1DFE7588003CEB73 /* TestHotmartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60544841DFE7588003CEB73 /* Build configuration list for PBXNativeTarget "TestHotmartTests" */;
+			buildPhases = (
+				B8FBBF750809E8EE0D361BB7 /* [CP] Check Pods Manifest.lock */,
+				C60544691DFE7588003CEB73 /* Sources */,
+				C605446A1DFE7588003CEB73 /* Frameworks */,
+				C605446B1DFE7588003CEB73 /* Resources */,
+				714087115CFFFA2131BD14A6 /* [CP] Embed Pods Frameworks */,
+				F3394AF3B908636CF1516993 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C605446F1DFE7588003CEB73 /* PBXTargetDependency */,
+			);
+			name = TestHotmartTests;
+			productName = TestHotmartTests;
+			productReference = C605446D1DFE7588003CEB73 /* TestHotmartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C60544771DFE7588003CEB73 /* TestHotmartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60544871DFE7588003CEB73 /* Build configuration list for PBXNativeTarget "TestHotmartUITests" */;
+			buildPhases = (
+				B17932F9FECBE4B1299407B3 /* [CP] Check Pods Manifest.lock */,
+				C60544741DFE7588003CEB73 /* Sources */,
+				C60544751DFE7588003CEB73 /* Frameworks */,
+				C60544761DFE7588003CEB73 /* Resources */,
+				866AF62BCA940CB23F4B1660 /* [CP] Embed Pods Frameworks */,
+				B51780E0596FFDFE0B5D0A19 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C605447A1DFE7588003CEB73 /* PBXTargetDependency */,
+			);
+			name = TestHotmartUITests;
+			productName = TestHotmartUITests;
+			productReference = C60544781DFE7588003CEB73 /* TestHotmartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C60544511DFE7588003CEB73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Rodrigo Miyashiro";
+				TargetAttributes = {
+					C60544581DFE7588003CEB73 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4DRM7LH39Z;
+						ProvisioningStyle = Automatic;
+					};
+					C605446C1DFE7588003CEB73 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4DRM7LH39Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C60544581DFE7588003CEB73;
+					};
+					C60544771DFE7588003CEB73 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4DRM7LH39Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C60544581DFE7588003CEB73;
+					};
+				};
+			};
+			buildConfigurationList = C60544541DFE7588003CEB73 /* Build configuration list for PBXProject "TestHotmart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C60544501DFE7588003CEB73;
+			productRefGroup = C605445A1DFE7588003CEB73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C60544581DFE7588003CEB73 /* TestHotmart */,
+				C605446C1DFE7588003CEB73 /* TestHotmartTests */,
+				C60544771DFE7588003CEB73 /* TestHotmartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C60544571DFE7588003CEB73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60544671DFE7588003CEB73 /* LaunchScreen.storyboard in Resources */,
+				C60544641DFE7588003CEB73 /* Assets.xcassets in Resources */,
+				C60544621DFE7588003CEB73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C605446B1DFE7588003CEB73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60544761DFE7588003CEB73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A013DCE5A2F7B40F7AF124E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestHotmart/Pods-TestHotmart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CBFFB425510B0CF6C8B8E3A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestHotmart/Pods-TestHotmart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		714087115CFFFA2131BD14A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestHotmartTests/Pods-TestHotmartTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		866AF62BCA940CB23F4B1660 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestHotmartUITests/Pods-TestHotmartUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B17932F9FECBE4B1299407B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B51780E0596FFDFE0B5D0A19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestHotmartUITests/Pods-TestHotmartUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8FBBF750809E8EE0D361BB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CAE192B38CFEB547A39F34BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3394AF3B908636CF1516993 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestHotmartTests/Pods-TestHotmartTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C60544551DFE7588003CEB73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C605445F1DFE7588003CEB73 /* ViewController.swift in Sources */,
+				C605445D1DFE7588003CEB73 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60544691DFE7588003CEB73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60544721DFE7588003CEB73 /* TestHotmartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60544741DFE7588003CEB73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C605447D1DFE7588003CEB73 /* TestHotmartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C605446F1DFE7588003CEB73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C60544581DFE7588003CEB73 /* TestHotmart */;
+			targetProxy = C605446E1DFE7588003CEB73 /* PBXContainerItemProxy */;
+		};
+		C605447A1DFE7588003CEB73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C60544581DFE7588003CEB73 /* TestHotmart */;
+			targetProxy = C60544791DFE7588003CEB73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C60544601DFE7588003CEB73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C60544611DFE7588003CEB73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C60544651DFE7588003CEB73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C60544661DFE7588003CEB73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C605447F1DFE7588003CEB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C60544801DFE7588003CEB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C60544821DFE7588003CEB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 984356226D0BA9A1E948CF7A /* Pods-TestHotmart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4DRM7LH39Z;
+				INFOPLIST_FILE = TestHotmart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rmiyashiro.TestHotmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C60544831DFE7588003CEB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91CF9E3AB1F32F8ED099A7B7 /* Pods-TestHotmart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4DRM7LH39Z;
+				INFOPLIST_FILE = TestHotmart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rmiyashiro.TestHotmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C60544851DFE7588003CEB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB5D208130B2DE67FB6FE306 /* Pods-TestHotmartTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4DRM7LH39Z;
+				INFOPLIST_FILE = TestHotmartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rmiyashiro.TestHotmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestHotmart.app/TestHotmart";
+			};
+			name = Debug;
+		};
+		C60544861DFE7588003CEB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 328AC9EEBC580EAE5DBDE622 /* Pods-TestHotmartTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4DRM7LH39Z;
+				INFOPLIST_FILE = TestHotmartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rmiyashiro.TestHotmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestHotmart.app/TestHotmart";
+			};
+			name = Release;
+		};
+		C60544881DFE7588003CEB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B8364962C52D7DE5C86347F /* Pods-TestHotmartUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4DRM7LH39Z;
+				INFOPLIST_FILE = TestHotmartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rmiyashiro.TestHotmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TestHotmart;
+			};
+			name = Debug;
+		};
+		C60544891DFE7588003CEB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADA7D80F9DB01425CC596206 /* Pods-TestHotmartUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4DRM7LH39Z;
+				INFOPLIST_FILE = TestHotmartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rmiyashiro.TestHotmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TestHotmart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C60544541DFE7588003CEB73 /* Build configuration list for PBXProject "TestHotmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C605447F1DFE7588003CEB73 /* Debug */,
+				C60544801DFE7588003CEB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C60544811DFE7588003CEB73 /* Build configuration list for PBXNativeTarget "TestHotmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60544821DFE7588003CEB73 /* Debug */,
+				C60544831DFE7588003CEB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C60544841DFE7588003CEB73 /* Build configuration list for PBXNativeTarget "TestHotmartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60544851DFE7588003CEB73 /* Debug */,
+				C60544861DFE7588003CEB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C60544871DFE7588003CEB73 /* Build configuration list for PBXNativeTarget "TestHotmartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60544881DFE7588003CEB73 /* Debug */,
+				C60544891DFE7588003CEB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C60544511DFE7588003CEB73 /* Project object */;
+}
