@@ -31,6 +31,7 @@
 		C60544B11DFE8FFD003CEB73 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544B01DFE8FFD003CEB73 /* NotificationViewController.swift */; };
 		C60544B31DFF0A98003CEB73 /* MessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544B21DFF0A98003CEB73 /* MessageCollectionViewCell.swift */; };
 		C60544B51DFF0DFA003CEB73 /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544B41DFF0DFA003CEB73 /* UICollectionViewCell.swift */; };
+		C60544B71DFF2E5E003CEB73 /* SaleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544B61DFF2E5E003CEB73 /* SaleTableViewCell.swift */; };
 		F3838CEE67DFB0D469DFF566 /* Pods_TestHotmart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65691AF26468D0A160F048AB /* Pods_TestHotmart.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +88,7 @@
 		C60544B01DFE8FFD003CEB73 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		C60544B21DFF0A98003CEB73 /* MessageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCollectionViewCell.swift; sourceTree = "<group>"; };
 		C60544B41DFF0DFA003CEB73 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
+		C60544B61DFF2E5E003CEB73 /* SaleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaleTableViewCell.swift; sourceTree = "<group>"; };
 		DA059EE3742606F1341C6C50 /* Pods_TestHotmartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestHotmartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5D208130B2DE67FB6FE306 /* Pods-TestHotmartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHotmartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestHotmartTests/Pods-TestHotmartTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -234,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				C60544A41DFE7D0B003CEB73 /* SaleViewController.swift */,
+				C60544B61DFF2E5E003CEB73 /* SaleTableViewCell.swift */,
 			);
 			name = Sales;
 			sourceTree = "<group>";
@@ -591,6 +594,7 @@
 				C60544991DFE7763003CEB73 /* String.swift in Sources */,
 				C60544951DFE775C003CEB73 /* Color.swift in Sources */,
 				C60544A11DFE79B9003CEB73 /* MainViewController.swift in Sources */,
+				C60544B71DFF2E5E003CEB73 /* SaleTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

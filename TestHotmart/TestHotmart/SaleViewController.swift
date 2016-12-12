@@ -9,7 +9,16 @@
 import UIKit
 
 class SaleViewController: UIViewController {
+    
+    // MARK: - Lets and Vars
+    
+    
+    // MARK: - IBOutlets
+    @IBOutlet weak var salesTableView: UITableView!
+    
+    
 
+    // MARK: - Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -47,4 +56,30 @@ class SaleViewController: UIViewController {
     }
     */
 
+}
+
+
+extension SaleViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 20
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cellIdentifier = "CellSales"
+        let cell = salesTableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! SaleTableViewCell
+        
+        let row = indexPath.row
+        var color = UIColor()
+        if row % 2 == 0 {
+            color = UIColor(hex: Color.lighterGray.rawValue)
+        }
+        else {
+            color = UIColor(hex: Color.white.rawValue)
+        }
+        
+        cell.backgroundColor = color
+        
+        
+        return cell
+    }
 }
