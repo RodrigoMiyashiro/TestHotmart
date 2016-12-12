@@ -16,6 +16,20 @@
 		C60544671DFE7588003CEB73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60544651DFE7588003CEB73 /* LaunchScreen.storyboard */; };
 		C60544721DFE7588003CEB73 /* TestHotmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544711DFE7588003CEB73 /* TestHotmartTests.swift */; };
 		C605447D1DFE7588003CEB73 /* TestHotmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C605447C1DFE7588003CEB73 /* TestHotmartUITests.swift */; };
+		C605448E1DFE7738003CEB73 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C605448B1DFE7738003CEB73 /* CustomTabBar.swift */; };
+		C605448F1DFE7738003CEB73 /* CustomTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C605448C1DFE7738003CEB73 /* CustomTabBarItem.swift */; };
+		C60544901DFE7738003CEB73 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C605448D1DFE7738003CEB73 /* CustomTabBarViewController.swift */; };
+		C60544951DFE775C003CEB73 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544941DFE775C003CEB73 /* Color.swift */; };
+		C60544981DFE7763003CEB73 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544961DFE7763003CEB73 /* UIColor.swift */; };
+		C60544991DFE7763003CEB73 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544971DFE7763003CEB73 /* String.swift */; };
+		C605449F1DFE778F003CEB73 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C605449E1DFE778F003CEB73 /* MenuViewController.swift */; };
+		C60544A11DFE79B9003CEB73 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544A01DFE79B9003CEB73 /* MainViewController.swift */; };
+		C60544A31DFE7CE1003CEB73 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544A21DFE7CE1003CEB73 /* MessageViewController.swift */; };
+		C60544A51DFE7D0B003CEB73 /* SaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544A41DFE7D0B003CEB73 /* SaleViewController.swift */; };
+		C60544A71DFE88F4003CEB73 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544A61DFE88F4003CEB73 /* MenuTableViewCell.swift */; };
+		C60544A91DFE8A01003CEB73 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544A81DFE8A01003CEB73 /* Image.swift */; };
+		C60544AE1DFE8DBE003CEB73 /* user.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C60544AD1DFE8DBE003CEB73 /* user.jpg */; };
+		C60544B11DFE8FFD003CEB73 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544B01DFE8FFD003CEB73 /* NotificationViewController.swift */; };
 		F3838CEE67DFB0D469DFF566 /* Pods_TestHotmart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65691AF26468D0A160F048AB /* Pods_TestHotmart.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +71,20 @@
 		C60544781DFE7588003CEB73 /* TestHotmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestHotmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C605447C1DFE7588003CEB73 /* TestHotmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHotmartUITests.swift; sourceTree = "<group>"; };
 		C605447E1DFE7588003CEB73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C605448B1DFE7738003CEB73 /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		C605448C1DFE7738003CEB73 /* CustomTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarItem.swift; sourceTree = "<group>"; };
+		C605448D1DFE7738003CEB73 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
+		C60544941DFE775C003CEB73 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		C60544961DFE7763003CEB73 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		C60544971DFE7763003CEB73 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		C605449E1DFE778F003CEB73 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		C60544A01DFE79B9003CEB73 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C60544A21DFE7CE1003CEB73 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		C60544A41DFE7D0B003CEB73 /* SaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaleViewController.swift; sourceTree = "<group>"; };
+		C60544A61DFE88F4003CEB73 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		C60544A81DFE8A01003CEB73 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		C60544AD1DFE8DBE003CEB73 /* user.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user.jpg; sourceTree = "<group>"; };
+		C60544B01DFE8FFD003CEB73 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		DA059EE3742606F1341C6C50 /* Pods_TestHotmartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestHotmartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5D208130B2DE67FB6FE306 /* Pods-TestHotmartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHotmartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestHotmartTests/Pods-TestHotmartTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,8 +155,15 @@
 		C605445B1DFE7588003CEB73 /* TestHotmart */ = {
 			isa = PBXGroup;
 			children = (
+				C60544911DFE773E003CEB73 /* Utils */,
+				C605448A1DFE76C5003CEB73 /* Custom TabBar */,
 				C605445C1DFE7588003CEB73 /* AppDelegate.swift */,
 				C605445E1DFE7588003CEB73 /* ViewController.swift */,
+				C605449D1DFE7787003CEB73 /* Menu */,
+				C605449C1DFE7782003CEB73 /* Main */,
+				C605449B1DFE777A003CEB73 /* Messages */,
+				C605449A1DFE7774003CEB73 /* Sales */,
+				C60544AF1DFE8FDA003CEB73 /* Notifications */,
 				C60544601DFE7588003CEB73 /* Main.storyboard */,
 				C60544631DFE7588003CEB73 /* Assets.xcassets */,
 				C60544651DFE7588003CEB73 /* LaunchScreen.storyboard */,
@@ -153,6 +188,93 @@
 				C605447E1DFE7588003CEB73 /* Info.plist */,
 			);
 			path = TestHotmartUITests;
+			sourceTree = "<group>";
+		};
+		C605448A1DFE76C5003CEB73 /* Custom TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				C605448B1DFE7738003CEB73 /* CustomTabBar.swift */,
+				C605448C1DFE7738003CEB73 /* CustomTabBarItem.swift */,
+				C605448D1DFE7738003CEB73 /* CustomTabBarViewController.swift */,
+			);
+			name = "Custom TabBar";
+			sourceTree = "<group>";
+		};
+		C60544911DFE773E003CEB73 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C60544AA1DFE8CD6003CEB73 /* Data example */,
+				C60544931DFE774F003CEB73 /* Extension */,
+				C60544921DFE7749003CEB73 /* Enum */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		C60544921DFE7749003CEB73 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				C60544941DFE775C003CEB73 /* Color.swift */,
+				C60544A81DFE8A01003CEB73 /* Image.swift */,
+			);
+			name = Enum;
+			sourceTree = "<group>";
+		};
+		C60544931DFE774F003CEB73 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C60544961DFE7763003CEB73 /* UIColor.swift */,
+				C60544971DFE7763003CEB73 /* String.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		C605449A1DFE7774003CEB73 /* Sales */ = {
+			isa = PBXGroup;
+			children = (
+				C60544A41DFE7D0B003CEB73 /* SaleViewController.swift */,
+			);
+			name = Sales;
+			sourceTree = "<group>";
+		};
+		C605449B1DFE777A003CEB73 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				C60544A21DFE7CE1003CEB73 /* MessageViewController.swift */,
+			);
+			name = Messages;
+			sourceTree = "<group>";
+		};
+		C605449C1DFE7782003CEB73 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C60544A01DFE79B9003CEB73 /* MainViewController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		C605449D1DFE7787003CEB73 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				C605449E1DFE778F003CEB73 /* MenuViewController.swift */,
+				C60544A61DFE88F4003CEB73 /* MenuTableViewCell.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		C60544AA1DFE8CD6003CEB73 /* Data example */ = {
+			isa = PBXGroup;
+			children = (
+				C60544AD1DFE8DBE003CEB73 /* user.jpg */,
+			);
+			name = "Data example";
+			sourceTree = "<group>";
+		};
+		C60544AF1DFE8FDA003CEB73 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				C60544B01DFE8FFD003CEB73 /* NotificationViewController.swift */,
+			);
+			name = Notifications;
 			sourceTree = "<group>";
 		};
 		EDCD7F3CB3DD38FF03A4163E /* Frameworks */ = {
@@ -286,6 +408,7 @@
 			files = (
 				C60544671DFE7588003CEB73 /* LaunchScreen.storyboard in Resources */,
 				C60544641DFE7588003CEB73 /* Assets.xcassets in Resources */,
+				C60544AE1DFE8DBE003CEB73 /* user.jpg in Resources */,
 				C60544621DFE7588003CEB73 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,7 +573,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				C605445F1DFE7588003CEB73 /* ViewController.swift in Sources */,
+				C60544981DFE7763003CEB73 /* UIColor.swift in Sources */,
+				C60544901DFE7738003CEB73 /* CustomTabBarViewController.swift in Sources */,
+				C605448E1DFE7738003CEB73 /* CustomTabBar.swift in Sources */,
+				C605449F1DFE778F003CEB73 /* MenuViewController.swift in Sources */,
+				C60544B11DFE8FFD003CEB73 /* NotificationViewController.swift in Sources */,
 				C605445D1DFE7588003CEB73 /* AppDelegate.swift in Sources */,
+				C605448F1DFE7738003CEB73 /* CustomTabBarItem.swift in Sources */,
+				C60544A91DFE8A01003CEB73 /* Image.swift in Sources */,
+				C60544A51DFE7D0B003CEB73 /* SaleViewController.swift in Sources */,
+				C60544A31DFE7CE1003CEB73 /* MessageViewController.swift in Sources */,
+				C60544A71DFE88F4003CEB73 /* MenuTableViewCell.swift in Sources */,
+				C60544991DFE7763003CEB73 /* String.swift in Sources */,
+				C60544951DFE775C003CEB73 /* Color.swift in Sources */,
+				C60544A11DFE79B9003CEB73 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,6 +843,7 @@
 				C60544831DFE7588003CEB73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C60544841DFE7588003CEB73 /* Build configuration list for PBXNativeTarget "TestHotmartTests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +852,7 @@
 				C60544861DFE7588003CEB73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C60544871DFE7588003CEB73 /* Build configuration list for PBXNativeTarget "TestHotmartUITests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +861,7 @@
 				C60544891DFE7588003CEB73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
