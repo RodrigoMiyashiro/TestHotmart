@@ -10,7 +10,6 @@
 		09D75650C42410A587716CEB /* Pods_TestHotmartUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76B172677930D86358656759 /* Pods_TestHotmartUITests.framework */; };
 		1C0268B4BD6FF825C84B93C1 /* Pods_TestHotmartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA059EE3742606F1341C6C50 /* Pods_TestHotmartTests.framework */; };
 		C605445D1DFE7588003CEB73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C605445C1DFE7588003CEB73 /* AppDelegate.swift */; };
-		C605445F1DFE7588003CEB73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C605445E1DFE7588003CEB73 /* ViewController.swift */; };
 		C60544621DFE7588003CEB73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60544601DFE7588003CEB73 /* Main.storyboard */; };
 		C60544641DFE7588003CEB73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60544631DFE7588003CEB73 /* Assets.xcassets */; };
 		C60544671DFE7588003CEB73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60544651DFE7588003CEB73 /* LaunchScreen.storyboard */; };
@@ -30,6 +29,8 @@
 		C60544A91DFE8A01003CEB73 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544A81DFE8A01003CEB73 /* Image.swift */; };
 		C60544AE1DFE8DBE003CEB73 /* user.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C60544AD1DFE8DBE003CEB73 /* user.jpg */; };
 		C60544B11DFE8FFD003CEB73 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544B01DFE8FFD003CEB73 /* NotificationViewController.swift */; };
+		C60544B31DFF0A98003CEB73 /* MessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544B21DFF0A98003CEB73 /* MessageCollectionViewCell.swift */; };
+		C60544B51DFF0DFA003CEB73 /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544B41DFF0DFA003CEB73 /* UICollectionViewCell.swift */; };
 		F3838CEE67DFB0D469DFF566 /* Pods_TestHotmart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65691AF26468D0A160F048AB /* Pods_TestHotmart.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +61,6 @@
 		ADA7D80F9DB01425CC596206 /* Pods-TestHotmartUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHotmartUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestHotmartUITests/Pods-TestHotmartUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C60544591DFE7588003CEB73 /* TestHotmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestHotmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C605445C1DFE7588003CEB73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C605445E1DFE7588003CEB73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C60544611DFE7588003CEB73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C60544631DFE7588003CEB73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C60544661DFE7588003CEB73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -85,6 +85,8 @@
 		C60544A81DFE8A01003CEB73 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		C60544AD1DFE8DBE003CEB73 /* user.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user.jpg; sourceTree = "<group>"; };
 		C60544B01DFE8FFD003CEB73 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		C60544B21DFF0A98003CEB73 /* MessageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCollectionViewCell.swift; sourceTree = "<group>"; };
+		C60544B41DFF0DFA003CEB73 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
 		DA059EE3742606F1341C6C50 /* Pods_TestHotmartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestHotmartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5D208130B2DE67FB6FE306 /* Pods-TestHotmartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHotmartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestHotmartTests/Pods-TestHotmartTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,7 +160,6 @@
 				C60544911DFE773E003CEB73 /* Utils */,
 				C605448A1DFE76C5003CEB73 /* Custom TabBar */,
 				C605445C1DFE7588003CEB73 /* AppDelegate.swift */,
-				C605445E1DFE7588003CEB73 /* ViewController.swift */,
 				C605449D1DFE7787003CEB73 /* Menu */,
 				C605449C1DFE7782003CEB73 /* Main */,
 				C605449B1DFE777A003CEB73 /* Messages */,
@@ -224,6 +225,7 @@
 			children = (
 				C60544961DFE7763003CEB73 /* UIColor.swift */,
 				C60544971DFE7763003CEB73 /* String.swift */,
+				C60544B41DFF0DFA003CEB73 /* UICollectionViewCell.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -240,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				C60544A21DFE7CE1003CEB73 /* MessageViewController.swift */,
+				C60544B21DFF0A98003CEB73 /* MessageCollectionViewCell.swift */,
 			);
 			name = Messages;
 			sourceTree = "<group>";
@@ -572,12 +575,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C605445F1DFE7588003CEB73 /* ViewController.swift in Sources */,
 				C60544981DFE7763003CEB73 /* UIColor.swift in Sources */,
 				C60544901DFE7738003CEB73 /* CustomTabBarViewController.swift in Sources */,
+				C60544B51DFF0DFA003CEB73 /* UICollectionViewCell.swift in Sources */,
 				C605448E1DFE7738003CEB73 /* CustomTabBar.swift in Sources */,
 				C605449F1DFE778F003CEB73 /* MenuViewController.swift in Sources */,
 				C60544B11DFE8FFD003CEB73 /* NotificationViewController.swift in Sources */,
+				C60544B31DFF0A98003CEB73 /* MessageCollectionViewCell.swift in Sources */,
 				C605445D1DFE7588003CEB73 /* AppDelegate.swift in Sources */,
 				C605448F1DFE7738003CEB73 /* CustomTabBarItem.swift in Sources */,
 				C60544A91DFE8A01003CEB73 /* Image.swift in Sources */,

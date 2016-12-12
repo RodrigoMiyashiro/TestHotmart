@@ -23,36 +23,79 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="t47-FC-GI8">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="486"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="rLK-lb-Z2S">
-                                    <size key="itemSize" width="74.400000000000006" height="74.400000000000006"/>
+                                    <size key="itemSize" width="100" height="120"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    <inset key="sectionInset" minX="13.5" minY="15" maxX="8.5" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Jtx-vw-4gx">
-                                        <rect key="frame" x="0.0" y="0.0" width="74.400000000000006" height="74.400000000000006"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MessageCell" id="Jtx-vw-4gx" customClass="MessageCollectionViewCell" customModule="TestHotmart" customModuleProvider="target">
+                                        <rect key="frame" x="14" y="15" width="100" height="120"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="74.400000000000006" height="74.400000000000006"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="120"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hp8-nc-q4t">
+                                                    <rect key="frame" x="13" y="0.0" width="74" height="74"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="74" id="DXg-ZO-eAb"/>
+                                                        <constraint firstAttribute="height" constant="74" id="QsS-v5-j1r"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flávia de Alcantra" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TPz-Zj-kxJ">
+                                                    <rect key="frame" x="5" y="76" width="90" height="17.5"/>
+                                                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                                                    <color key="textColor" red="0.56862745100000001" green="0.56862745100000001" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico_alert" translatesAutoresizingMaskIntoConstraints="NO" id="qBF-kf-QGv">
+                                                    <rect key="frame" x="67" y="0.0" width="20" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20" id="2Pv-Nd-YAg"/>
+                                                        <constraint firstAttribute="width" constant="20" id="DjQ-Aj-8Z1"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
                                         </view>
+                                        <constraints>
+                                            <constraint firstItem="hp8-nc-q4t" firstAttribute="centerX" secondItem="Jtx-vw-4gx" secondAttribute="centerX" id="GZB-Ij-rPc"/>
+                                            <constraint firstItem="qBF-kf-QGv" firstAttribute="top" secondItem="hp8-nc-q4t" secondAttribute="top" id="RAv-zQ-cPc"/>
+                                            <constraint firstItem="TPz-Zj-kxJ" firstAttribute="top" secondItem="hp8-nc-q4t" secondAttribute="bottom" constant="2" id="cOm-91-Art"/>
+                                            <constraint firstItem="hp8-nc-q4t" firstAttribute="top" secondItem="Jtx-vw-4gx" secondAttribute="topMargin" constant="-8" id="dUr-z4-Ace"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="TPz-Zj-kxJ" secondAttribute="trailing" constant="-3" id="fBX-Ud-jtV"/>
+                                            <constraint firstItem="qBF-kf-QGv" firstAttribute="trailing" secondItem="hp8-nc-q4t" secondAttribute="trailing" id="hH2-wq-Vxd"/>
+                                            <constraint firstItem="TPz-Zj-kxJ" firstAttribute="leading" secondItem="Jtx-vw-4gx" secondAttribute="leadingMargin" constant="-3" id="wet-B6-6ot"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="imgAlertIcon" destination="qBF-kf-QGv" id="fgS-uN-4FM"/>
+                                            <outlet property="imgUserPhoto" destination="hp8-nc-q4t" id="pZ3-12-0kJ"/>
+                                            <outlet property="lblUserName" destination="hp8-nc-q4t" id="dVV-np-m3k"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="XF3-wb-30J"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="m3D-YU-reE"/>
+                                </connections>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="t47-FC-GI8" secondAttribute="bottom" id="MJd-Xk-0I3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="t47-FC-GI8" secondAttribute="bottom" constant="68" id="MJd-Xk-0I3"/>
                             <constraint firstAttribute="trailingMargin" secondItem="t47-FC-GI8" secondAttribute="trailing" constant="-16" id="NN5-At-0Pa"/>
-                            <constraint firstItem="t47-FC-GI8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-64" id="kJ8-q7-ju9"/>
+                            <constraint firstItem="t47-FC-GI8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="kJ8-q7-ju9"/>
                             <constraint firstItem="t47-FC-GI8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="xis-TB-I3t"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="ico_mensagem_tabbar" id="mg9-Db-1yL"/>
                     <navigationItem key="navigationItem" id="bKg-IV-bJK"/>
+                    <connections>
+                        <outlet property="messageCollectionView" destination="t47-FC-GI8" id="79J-Ld-sim"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -101,8 +144,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SYN-M3-2iU">
-                                <rect key="frame" x="182.5" y="323" width="10.5" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Layout em contrução" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SYN-M3-2iU">
+                                <rect key="frame" x="107" y="323" width="161.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -150,7 +193,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JNl-GR-HId">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JNl-GR-HId">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="197"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="197" id="ysR-HN-Pcm"/>
@@ -345,6 +388,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ico_alert" width="94" height="94"/>
         <image name="ico_dashboard" width="178" height="178"/>
         <image name="ico_mensagem_tabbar" width="24" height="24"/>
         <image name="ico_minhas_vendas_tabbar" width="24" height="24"/>

@@ -25,6 +25,10 @@ class NotificationViewController: UIViewController {
     
     func navigationColor() {
         self.navigationController?.navigationBar.barTintColor = UIColor(hex: Color.purple.rawValue)
+        self.navigationController?.navigationBar.tintColor = UIColor(hex: Color.white.rawValue)
+        self.navigationController?.navigationBar.topItem?.title = NSLocalizedString("Notificações", comment: "title section")
+        
+        self.navigationController?.navigationBar.topItem?.rightBarButtonItem = UIBarButtonItem()
     }
 
     override func didReceiveMemoryWarning() {

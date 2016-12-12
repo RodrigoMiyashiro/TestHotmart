@@ -25,6 +25,10 @@ class SaleViewController: UIViewController {
     
     func navigationColor() {
         self.navigationController?.navigationBar.barTintColor = UIColor(hex: Color.blue.rawValue)
+        self.navigationController?.navigationBar.tintColor = UIColor(hex: Color.white.rawValue)
+        self.navigationController?.navigationBar.topItem?.title = NSLocalizedString("Minhas Vendas", comment: "title section")
+        
+        self.navigationController?.navigationBar.topItem?.rightBarButtonItem = UIBarButtonItem()
     }
 
     override func didReceiveMemoryWarning() {
