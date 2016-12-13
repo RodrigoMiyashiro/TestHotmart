@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SWRevealViewController
 
 class MessageViewController: UIViewController {
     
@@ -17,22 +18,25 @@ class MessageViewController: UIViewController {
     // MARK: - IBOutlets
     @IBOutlet weak var messageCollectionView: UICollectionView!
     @IBOutlet weak var barBtnItemCounterIndicator: UIBarButtonItem!
+    @IBOutlet weak var openMenu: UIBarButtonItem!
     
     
     
     // MARK: - Cycle Life
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-        
-        
+     
+        showMenu()
+    }
+    
+    func showMenu() {
+        openMenu.target = self.revealViewController()
+        openMenu.action = #selector(SWRevealViewController.revealToggle(_:))
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-//        self.title = "Mensagem"//NSLocalizedString("Mensagens", comment: "title section")
         navigationColor()
     }
     
@@ -40,30 +44,22 @@ class MessageViewController: UIViewController {
         self.navigationController?.navigationBar.barTintColor = UIColor(hex: Color.orange.rawValue)
         self.navigationController?.navigationBar.tintColor = UIColor(hex: Color.white.rawValue)
         
-        self.navigationController?.navigationBar.topItem?.title = NSLocalizedString("Mensagens", comment: "title section")
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+        self.title = NSLocalizedString("Mensagens", comment: "title section")
         
-//        let lblTitle = UILabel()
-//        lblTitle.text = "Mensagens"
-//        lblTitle.textColor = UIColor.white
-//        
-//        self.navigationController?.navigationBar.topItem?.titleView = lblTitle
         
-        self.navigationController?.navigationBar.topItem?.rightBarButtonItem = UIBarButtonItem(title: "+10", style: UIBarButtonItemStyle.plain, target: self, action: nil)
-        
-        let lblCounter = UILabel(frame: CGRect(x: 0, y: 0, width: 45, height: 30))
+        let lblCounter = UILabel(frame: CGRect(x: ((self.navigationController?.navigationBar.frame.width)! - (45 + 10)),
+                                                   y: (self.navigationController?.navigationBar.frame.height)! - (30*5/4),
+                                                   width: 45,
+                                                   height: 30))
         lblCounter.text = "+10"
         lblCounter.backgroundColor = UIColor.white
         lblCounter.textColor = UIColor.black
         lblCounter.textAlignment = .center
-        self.navigationController?.navigationBar.topItem?.rightBarButtonItem?.customView = lblCounter
         
+        self.navigationController?.navigationBar.addSubview(lblCounter)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
 
     /*
     // MARK: - Navigation

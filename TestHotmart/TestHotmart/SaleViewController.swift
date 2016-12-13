@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SWRevealViewController
 
 class SaleViewController: UIViewController {
     
@@ -15,15 +16,20 @@ class SaleViewController: UIViewController {
     
     // MARK: - IBOutlets
     @IBOutlet weak var salesTableView: UITableView!
+    @IBOutlet weak var openMenu: UIBarButtonItem!
     
     
 
     // MARK: - Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
         
+        showMenu()
+    }
+    
+    func showMenu() {
+        openMenu.target = self.revealViewController()
+        openMenu.action = #selector(SWRevealViewController.revealToggle(_:))
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -35,9 +41,9 @@ class SaleViewController: UIViewController {
     func navigationColor() {
         self.navigationController?.navigationBar.barTintColor = UIColor(hex: Color.blue.rawValue)
         self.navigationController?.navigationBar.tintColor = UIColor(hex: Color.white.rawValue)
-        self.navigationController?.navigationBar.topItem?.title = NSLocalizedString("Minhas Vendas", comment: "title section")
         
-        self.navigationController?.navigationBar.topItem?.rightBarButtonItem = UIBarButtonItem()
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+        self.title = NSLocalizedString("Minhas Vendas", comment: "title section")
     }
 
     override func didReceiveMemoryWarning() {

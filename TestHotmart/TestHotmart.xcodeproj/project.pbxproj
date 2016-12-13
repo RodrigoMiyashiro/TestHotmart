@@ -22,16 +22,23 @@
 		C60544981DFE7763003CEB73 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544961DFE7763003CEB73 /* UIColor.swift */; };
 		C60544991DFE7763003CEB73 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544971DFE7763003CEB73 /* String.swift */; };
 		C605449F1DFE778F003CEB73 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C605449E1DFE778F003CEB73 /* MenuViewController.swift */; };
-		C60544A11DFE79B9003CEB73 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544A01DFE79B9003CEB73 /* MainViewController.swift */; };
+		C60544A11DFE79B9003CEB73 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544A01DFE79B9003CEB73 /* DashBoardViewController.swift */; };
 		C60544A31DFE7CE1003CEB73 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544A21DFE7CE1003CEB73 /* MessageViewController.swift */; };
 		C60544A51DFE7D0B003CEB73 /* SaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544A41DFE7D0B003CEB73 /* SaleViewController.swift */; };
 		C60544A71DFE88F4003CEB73 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544A61DFE88F4003CEB73 /* MenuTableViewCell.swift */; };
-		C60544A91DFE8A01003CEB73 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544A81DFE8A01003CEB73 /* Image.swift */; };
+		C60544A91DFE8A01003CEB73 /* ImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544A81DFE8A01003CEB73 /* ImageName.swift */; };
 		C60544AE1DFE8DBE003CEB73 /* user.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C60544AD1DFE8DBE003CEB73 /* user.jpg */; };
 		C60544B11DFE8FFD003CEB73 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544B01DFE8FFD003CEB73 /* NotificationViewController.swift */; };
 		C60544B31DFF0A98003CEB73 /* MessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544B21DFF0A98003CEB73 /* MessageCollectionViewCell.swift */; };
 		C60544B51DFF0DFA003CEB73 /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544B41DFF0DFA003CEB73 /* UICollectionViewCell.swift */; };
 		C60544B71DFF2E5E003CEB73 /* SaleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544B61DFF2E5E003CEB73 /* SaleTableViewCell.swift */; };
+		C60544BD1DFF5461003CEB73 /* ExampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544BC1DFF5461003CEB73 /* ExampleData.swift */; };
+		C60544BF1DFF54C6003CEB73 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544BE1DFF54C6003CEB73 /* Array.swift */; };
+		C60544C11DFF5FBE003CEB73 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544C01DFF5FBE003CEB73 /* UIViewController.swift */; };
+		C60545011DFFC4CC003CEB73 /* PeopleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60545001DFFC4CC003CEB73 /* PeopleCollectionViewCell.swift */; };
+		C60545031DFFC4DD003CEB73 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60545021DFFC4DD003CEB73 /* TableViewCell.swift */; };
+		C60545051DFFC50C003CEB73 /* TableViewCellToUseWithCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60545041DFFC50C003CEB73 /* TableViewCellToUseWithCollectionView.swift */; };
+		C60545071DFFC529003CEB73 /* OthersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60545061DFFC529003CEB73 /* OthersTableViewCell.swift */; };
 		F3838CEE67DFB0D469DFF566 /* Pods_TestHotmart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65691AF26468D0A160F048AB /* Pods_TestHotmart.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,16 +86,23 @@
 		C60544961DFE7763003CEB73 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		C60544971DFE7763003CEB73 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		C605449E1DFE778F003CEB73 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		C60544A01DFE79B9003CEB73 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C60544A01DFE79B9003CEB73 /* DashBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
 		C60544A21DFE7CE1003CEB73 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		C60544A41DFE7D0B003CEB73 /* SaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaleViewController.swift; sourceTree = "<group>"; };
 		C60544A61DFE88F4003CEB73 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
-		C60544A81DFE8A01003CEB73 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		C60544A81DFE8A01003CEB73 /* ImageName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageName.swift; sourceTree = "<group>"; };
 		C60544AD1DFE8DBE003CEB73 /* user.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user.jpg; sourceTree = "<group>"; };
 		C60544B01DFE8FFD003CEB73 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		C60544B21DFF0A98003CEB73 /* MessageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCollectionViewCell.swift; sourceTree = "<group>"; };
 		C60544B41DFF0DFA003CEB73 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
 		C60544B61DFF2E5E003CEB73 /* SaleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaleTableViewCell.swift; sourceTree = "<group>"; };
+		C60544BC1DFF5461003CEB73 /* ExampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleData.swift; sourceTree = "<group>"; };
+		C60544BE1DFF54C6003CEB73 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		C60544C01DFF5FBE003CEB73 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		C60545001DFFC4CC003CEB73 /* PeopleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleCollectionViewCell.swift; sourceTree = "<group>"; };
+		C60545021DFFC4DD003CEB73 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		C60545041DFFC50C003CEB73 /* TableViewCellToUseWithCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellToUseWithCollectionView.swift; sourceTree = "<group>"; };
+		C60545061DFFC529003CEB73 /* OthersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OthersTableViewCell.swift; sourceTree = "<group>"; };
 		DA059EE3742606F1341C6C50 /* Pods_TestHotmartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestHotmartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5D208130B2DE67FB6FE306 /* Pods-TestHotmartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHotmartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestHotmartTests/Pods-TestHotmartTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -163,7 +177,7 @@
 				C605448A1DFE76C5003CEB73 /* Custom TabBar */,
 				C605445C1DFE7588003CEB73 /* AppDelegate.swift */,
 				C605449D1DFE7787003CEB73 /* Menu */,
-				C605449C1DFE7782003CEB73 /* Main */,
+				C605449C1DFE7782003CEB73 /* Dashboard */,
 				C605449B1DFE777A003CEB73 /* Messages */,
 				C605449A1DFE7774003CEB73 /* Sales */,
 				C60544AF1DFE8FDA003CEB73 /* Notifications */,
@@ -217,7 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				C60544941DFE775C003CEB73 /* Color.swift */,
-				C60544A81DFE8A01003CEB73 /* Image.swift */,
+				C60544A81DFE8A01003CEB73 /* ImageName.swift */,
 			);
 			name = Enum;
 			sourceTree = "<group>";
@@ -227,7 +241,9 @@
 			children = (
 				C60544961DFE7763003CEB73 /* UIColor.swift */,
 				C60544971DFE7763003CEB73 /* String.swift */,
+				C60544BE1DFF54C6003CEB73 /* Array.swift */,
 				C60544B41DFF0DFA003CEB73 /* UICollectionViewCell.swift */,
+				C60544C01DFF5FBE003CEB73 /* UIViewController.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -250,12 +266,16 @@
 			name = Messages;
 			sourceTree = "<group>";
 		};
-		C605449C1DFE7782003CEB73 /* Main */ = {
+		C605449C1DFE7782003CEB73 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
-				C60544A01DFE79B9003CEB73 /* MainViewController.swift */,
+				C60544A01DFE79B9003CEB73 /* DashBoardViewController.swift */,
+				C60545001DFFC4CC003CEB73 /* PeopleCollectionViewCell.swift */,
+				C60545021DFFC4DD003CEB73 /* TableViewCell.swift */,
+				C60545041DFFC50C003CEB73 /* TableViewCellToUseWithCollectionView.swift */,
+				C60545061DFFC529003CEB73 /* OthersTableViewCell.swift */,
 			);
-			name = Main;
+			name = Dashboard;
 			sourceTree = "<group>";
 		};
 		C605449D1DFE7787003CEB73 /* Menu */ = {
@@ -271,6 +291,7 @@
 			isa = PBXGroup;
 			children = (
 				C60544AD1DFE8DBE003CEB73 /* user.jpg */,
+				C60544BC1DFF5461003CEB73 /* ExampleData.swift */,
 			);
 			name = "Data example";
 			sourceTree = "<group>";
@@ -584,16 +605,23 @@
 				C605448E1DFE7738003CEB73 /* CustomTabBar.swift in Sources */,
 				C605449F1DFE778F003CEB73 /* MenuViewController.swift in Sources */,
 				C60544B11DFE8FFD003CEB73 /* NotificationViewController.swift in Sources */,
+				C60545071DFFC529003CEB73 /* OthersTableViewCell.swift in Sources */,
 				C60544B31DFF0A98003CEB73 /* MessageCollectionViewCell.swift in Sources */,
 				C605445D1DFE7588003CEB73 /* AppDelegate.swift in Sources */,
+				C60545031DFFC4DD003CEB73 /* TableViewCell.swift in Sources */,
+				C60544BF1DFF54C6003CEB73 /* Array.swift in Sources */,
 				C605448F1DFE7738003CEB73 /* CustomTabBarItem.swift in Sources */,
-				C60544A91DFE8A01003CEB73 /* Image.swift in Sources */,
+				C60544A91DFE8A01003CEB73 /* ImageName.swift in Sources */,
 				C60544A51DFE7D0B003CEB73 /* SaleViewController.swift in Sources */,
 				C60544A31DFE7CE1003CEB73 /* MessageViewController.swift in Sources */,
+				C60545051DFFC50C003CEB73 /* TableViewCellToUseWithCollectionView.swift in Sources */,
+				C60544C11DFF5FBE003CEB73 /* UIViewController.swift in Sources */,
 				C60544A71DFE88F4003CEB73 /* MenuTableViewCell.swift in Sources */,
+				C60544BD1DFF5461003CEB73 /* ExampleData.swift in Sources */,
+				C60545011DFFC4CC003CEB73 /* PeopleCollectionViewCell.swift in Sources */,
 				C60544991DFE7763003CEB73 /* String.swift in Sources */,
 				C60544951DFE775C003CEB73 /* Color.swift in Sources */,
-				C60544A11DFE79B9003CEB73 /* MainViewController.swift in Sources */,
+				C60544A11DFE79B9003CEB73 /* DashBoardViewController.swift in Sources */,
 				C60544B71DFF2E5E003CEB73 /* SaleTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -689,7 +717,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -733,7 +761,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

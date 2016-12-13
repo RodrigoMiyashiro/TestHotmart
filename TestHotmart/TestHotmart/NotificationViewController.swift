@@ -7,14 +7,25 @@
 //
 
 import UIKit
+import SWRevealViewController
 
 class NotificationViewController: UIViewController {
-
+    
+    // MARK: IBOutlets
+    @IBOutlet weak var openMenu: UIBarButtonItem!
+    
+    
+    
+    // MARK: - Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
         
+        showMenu()
+    }
+    
+    func showMenu() {
+        openMenu.target = self.revealViewController()
+        openMenu.action = #selector(SWRevealViewController.revealToggle(_:))
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -26,9 +37,9 @@ class NotificationViewController: UIViewController {
     func navigationColor() {
         self.navigationController?.navigationBar.barTintColor = UIColor(hex: Color.purple.rawValue)
         self.navigationController?.navigationBar.tintColor = UIColor(hex: Color.white.rawValue)
-        self.navigationController?.navigationBar.topItem?.title = NSLocalizedString("Notificações", comment: "title section")
         
-        self.navigationController?.navigationBar.topItem?.rightBarButtonItem = UIBarButtonItem()
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+        self.title = NSLocalizedString("Notificações", comment: "title section")
     }
 
     override func didReceiveMemoryWarning() {

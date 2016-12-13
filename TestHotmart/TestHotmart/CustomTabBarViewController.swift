@@ -7,8 +7,12 @@
 //
 
 import UIKit
+import SWRevealViewController
 
 class CustomTabBarViewController: UITabBarController, CustomTabBarDataSource, CustomTabBarDelegate {
+    
+    @IBOutlet weak var openMenu: UIBarButtonItem!
+    
 
     // MARK: - Life Cycle
     override func viewDidLoad() {
@@ -16,6 +20,7 @@ class CustomTabBarViewController: UITabBarController, CustomTabBarDataSource, Cu
         
         self.tabBar.isHidden = true
         
+        showMenu()
         setheightTabBar()
         
         let customTabBar = CustomTabBar(frame: self.tabBar.frame)
@@ -25,6 +30,12 @@ class CustomTabBarViewController: UITabBarController, CustomTabBarDataSource, Cu
         self.view.addSubview(customTabBar)
     }
     
+    func showMenu() {
+        openMenu.target = self.revealViewController()
+        openMenu.action = #selector(SWRevealViewController.revealToggle(_:))
+    }
+    
+    
     func setheightTabBar() {
         let oldHeight = self.tabBar.frame.size.height
         self.tabBar.frame.size.height = 68
@@ -32,15 +43,11 @@ class CustomTabBarViewController: UITabBarController, CustomTabBarDataSource, Cu
         self.tabBar.frame.origin.y -= newHeight - oldHeight
     }
     
-    
-    // MARK: - Show Menu
-    @IBAction func showMenu(_ sender: UIBarButtonItem) {
-        self.slideMenuController()?.openLeft()
-    }
-    
+        
     
     // MARK: - Custom TabBar DataSource
     func tabBarItemsInCustomTabBar(tabBarView: CustomTabBar) -> [UITabBarItem] {
+
         return tabBar.items!
     }
     

@@ -7,7 +7,7 @@ target 'TestHotmart' do
 
   # Pods for TestHotmart
 	pod ‘JSONJoy-Swift’
-	pod 'SlideMenuControllerSwift'
+	pod 'SWRevealViewController'
 
 
   target 'TestHotmartTests' do

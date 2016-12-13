@@ -38,9 +38,6 @@ class CustomTabBar: UIView {
     
     
     func setup() {
-        // get tab bar items from default tab bar
-        tabBarItems = dataSource.tabBarItemsInCustomTabBar(tabBarView: self)
-        
         // Get tabbar items from default tabbar
         tabBarItems = dataSource.tabBarItemsInCustomTabBar(tabBarView: self)
         

@@ -24,7 +24,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SlideMenuControllerSwift.xcscheme</key>
+		<key>SWRevealViewController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,22 +37,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>1E9D64287C8A4003BA5C98B70917D8D1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>75F645703CB704DDE3104E3BC45FFD6A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C6169220DD7226ECA7F5B38E8ACD7B23</key>
+		<key>D3AE97551349E30C3A2185CBB5C118C7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>E9E710F048A759A9EA647A7C0BDAA1F6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F3D32AFC86F9B0324118E8A656035804</key>
 		<dict>
 			<key>primary</key>
 			<true/>

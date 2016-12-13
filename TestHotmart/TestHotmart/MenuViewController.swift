@@ -8,9 +8,23 @@
 
 import UIKit
 
-class MenuViewController: UIViewController {
+
+enum LeftMenu: Int {
+    case dashboard = 0
+    case mySales
+    case myProducts
+    case affiliates
+    case messages
+    case notifications
+    case myAccount
+    case aboutThisApp
+}
+
+
+class MenuViewController: UITableViewController {
     
     // MARK: - Lets and Vars
+    var menuOptions = Array<Any>().optionMenu()
     
     
     // MARK: - IBOutlets
@@ -26,38 +40,70 @@ class MenuViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "segueMessage" {
+            let destination = segue.destination as! CustomTabBarViewController
+            destination.selectedIndex = 0
+        }
+        
+        if segue.identifier == "segueSales" {
+            let destination = segue.destination as! CustomTabBarViewController
+            destination.selectedIndex = 1
+        }
+        
+        if segue.identifier == "segueNotification" {
+            let destination = segue.destination as! CustomTabBarViewController
+            destination.selectedIndex = 2
+        }
     }
-    */
 
 }
 
-extension MenuViewController: UITableViewDataSource {
+extension MenuViewController {
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 8
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return menuOptions.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellIdentifier = "CellMenu"
         let cell = menuTableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! MenuTableViewCell
         
+        let row = indexPath.row
         
+        
+        if let imgName = ImageName(rawValue: row) {
+            cell.imgIconOption.image = UIImage(named: imgName.str)
+        }
+        let option = menuOptions[row]
+        cell.lblNameOption.text = option
         
         return cell
     }
 }
+
+extension MenuViewController {
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        menuTableView.deselectRow(at: indexPath, animated: true)
+        
+        let rowSelected = indexPath.row
+        
+        switch rowSelected {
+        case LeftMenu.dashboard.rawValue:
+            performSegue(withIdentifier: "segueDashboard", sender: self)
+        case LeftMenu.messages.rawValue:
+            performSegue(withIdentifier: "segueMessage", sender: self)
+        case LeftMenu.mySales.rawValue:
+            performSegue(withIdentifier: "segueSales", sender: self)
+        case LeftMenu.notifications.rawValue:
+            performSegue(withIdentifier: "segueNotification", sender: self)
+        default:
+            break
+        }
+    }
+}
+
+

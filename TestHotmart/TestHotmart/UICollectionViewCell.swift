@@ -10,11 +10,9 @@ import UIKit
 
 extension UICollectionViewCell {
     
-    func roundImage<cell: MessageCollectionViewCell>(_ cellSelected: cell) /*-> cell*/ {
+    func roundImage<cell: MessageCollectionViewCell>(_ cellSelected: cell) {
         cellSelected.imgUserPhoto.layer.masksToBounds = false
         cellSelected.imgUserPhoto.layer.cornerRadius = cellSelected.imgUserPhoto.layer.frame.height/2
         cellSelected.imgUserPhoto.clipsToBounds = true
-        
-//        return cellSelected
     }
 }
