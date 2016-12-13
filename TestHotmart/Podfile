@@ -6,6 +6,7 @@ target 'TestHotmart' do
   use_frameworks!
 
   # Pods for TestHotmart
+  pod ‘Alamofire’
 	pod ‘JSONJoy-Swift’
 	pod 'SWRevealViewController'
 

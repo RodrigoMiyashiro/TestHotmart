@@ -34,13 +34,6 @@ class CustomTabBarItem: UIView {
         iconView = UIImageView(frame: CGRect(x: (self.frame.width-image.size.width)/2, y: (self.frame.height-image.size
             .height)/2, width: self.frame.width, height: self.frame.height))
         
-//        print("--> W: \(self.frame.width)")
-//        print("--> H: \(self.frame.height)\n")
-//        print("--> W: \(image.size.width)")
-//        print("--> H: \(image.size.height)\n")
-//        print("--> I: \(iconView.frame)")
-//        print("**********************\n\n")
-        
         iconView.image = image
         iconView.sizeToFit()
         

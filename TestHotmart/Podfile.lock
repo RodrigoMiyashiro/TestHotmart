@@ -1,15 +1,18 @@
 PODS:
+  - Alamofire (4.2.0)
   - JSONJoy-Swift (3.0.0)
   - SWRevealViewController (2.3.0)
 
 DEPENDENCIES:
+  - Alamofire
   - JSONJoy-Swift
   - SWRevealViewController
 
 SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
   JSONJoy-Swift: 103a44ba04f2219112d01dcaab5754a081d7c07f
   SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
 
-PODFILE CHECKSUM: fd6b39cc7acf56fbd5bc86dc050fa155f027b82b
+PODFILE CHECKSUM: 9f6d780090cc81f40f60ae44a81253aac163a91d
 
 COCOAPODS: 1.2.0.beta.1

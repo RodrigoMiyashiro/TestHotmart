@@ -67,7 +67,7 @@ class SaleViewController: UIViewController {
 
 extension SaleViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 20
+        return sales.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -83,7 +83,25 @@ extension SaleViewController: UITableViewDataSource {
             color = UIColor(hex: Color.white.rawValue)
         }
         
+        let sale = sales[row]
+        let date = String.convertDateFormater(date: sale.saleDate)
+
+        cell.lblDescription.text = NSLocalizedString(sale.saleDescription, comment: "Sale Description")
+        cell.lblIdAndDate.text = "id \(sale.saleId) • \(date)"
+        cell.lblPrice.text = NSLocalizedString("R$ \(sale.salePrice)", comment: "Price")
+        
+        
         cell.backgroundColor = color
+        
+        // Only to show indicator
+        switch row {
+        case 0:
+            cell.imgAlert.isHidden = false
+        case 1:
+            cell.imgAlert.isHidden = false
+        default:
+            break
+        }
         
         
         return cell

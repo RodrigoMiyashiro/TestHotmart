@@ -12,4 +12,5 @@ class PeopleCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var imgUserPhoto: UIImageView!
     @IBOutlet weak var lblUserName: UILabel!
+    @IBOutlet weak var lblInitialLetter: UILabel!
 }

@@ -76,7 +76,7 @@ class MessageViewController: UIViewController {
 
 extension MessageViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 30
+        return messages.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -84,6 +84,32 @@ extension MessageViewController: UICollectionViewDataSource {
         let cell = messageCollectionView.dequeueReusableCell(withReuseIdentifier: cellIdentifier, for: indexPath) as! MessageCollectionViewCell
         
         cell.roundImage(cell)
+        
+        
+        let item = indexPath.item
+        let msg = messages[item]
+        let photo = msg.userRemote.photo
+        
+        if photo != "" {
+            cell.imgUserPhoto.image = UIImage(named: photo)
+            cell.lblInitialLetter.isHidden = true
+        }
+        else {
+            cell.lblInitialLetter.isHidden = false
+            let letter = String.initialLetter(name: msg.userRemote.name)
+            cell.lblInitialLetter.text = letter
+            
+            let color = AleatoryColor.generate()
+            cell.imgUserPhoto.backgroundColor = UIColor(hex: color)
+        }
+        
+        cell.lblUserName.text = msg.userRemote.name
+        
+        // Only to show indicator
+        if item == 0 {
+            cell.imgAlertIcon.isHidden = false
+        }
+        
         
         return cell
     }

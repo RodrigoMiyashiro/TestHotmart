@@ -11,7 +11,8 @@ import UIKit
 class MessageCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var imgUserPhoto: UIImageView!
-    @IBOutlet weak var lblUserName: UIImageView!
+    @IBOutlet weak var lblUserName: UILabel!
     @IBOutlet weak var imgAlertIcon: UIImageView!
     
+    @IBOutlet weak var lblInitialLetter: UILabel!
 }

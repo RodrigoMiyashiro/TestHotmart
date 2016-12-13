@@ -32,13 +32,23 @@
 		C60544B31DFF0A98003CEB73 /* MessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544B21DFF0A98003CEB73 /* MessageCollectionViewCell.swift */; };
 		C60544B51DFF0DFA003CEB73 /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544B41DFF0DFA003CEB73 /* UICollectionViewCell.swift */; };
 		C60544B71DFF2E5E003CEB73 /* SaleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544B61DFF2E5E003CEB73 /* SaleTableViewCell.swift */; };
-		C60544BD1DFF5461003CEB73 /* ExampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544BC1DFF5461003CEB73 /* ExampleData.swift */; };
 		C60544BF1DFF54C6003CEB73 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544BE1DFF54C6003CEB73 /* Array.swift */; };
 		C60544C11DFF5FBE003CEB73 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60544C01DFF5FBE003CEB73 /* UIViewController.swift */; };
 		C60545011DFFC4CC003CEB73 /* PeopleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60545001DFFC4CC003CEB73 /* PeopleCollectionViewCell.swift */; };
 		C60545031DFFC4DD003CEB73 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60545021DFFC4DD003CEB73 /* TableViewCell.swift */; };
 		C60545051DFFC50C003CEB73 /* TableViewCellToUseWithCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60545041DFFC50C003CEB73 /* TableViewCellToUseWithCollectionView.swift */; };
 		C60545071DFFC529003CEB73 /* OthersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60545061DFFC529003CEB73 /* OthersTableViewCell.swift */; };
+		C60545101DFFE92D003CEB73 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = C605450F1DFFE92D003CEB73 /* People.swift */; };
+		C60545121DFFED04003CEB73 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60545111DFFED04003CEB73 /* Message.swift */; };
+		C60545141DFFEE80003CEB73 /* MessageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60545131DFFEE80003CEB73 /* MessageContent.swift */; };
+		C60545161E004A66003CEB73 /* Sale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60545151E004A66003CEB73 /* Sale.swift */; };
+		C605451A1E005BAC003CEB73 /* me.json in Resources */ = {isa = PBXBuildFile; fileRef = C60545171E005BAC003CEB73 /* me.json */; };
+		C605451B1E005BAC003CEB73 /* messages.json in Resources */ = {isa = PBXBuildFile; fileRef = C60545181E005BAC003CEB73 /* messages.json */; };
+		C605451C1E005BAC003CEB73 /* sales.json in Resources */ = {isa = PBXBuildFile; fileRef = C60545191E005BAC003CEB73 /* sales.json */; };
+		C605451E1E005D23003CEB73 /* ReadingFilesJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C605451D1E005D23003CEB73 /* ReadingFilesJSON.swift */; };
+		C60545221E008F7D003CEB73 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60545211E008F7D003CEB73 /* Example.swift */; };
+		C60545251E009A61003CEB73 /* AleatoryColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60545241E009A61003CEB73 /* AleatoryColor.swift */; };
+		C605452A1E00A11D003CEB73 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C605452C1E00A11D003CEB73 /* Localizable.strings */; };
 		F3838CEE67DFB0D469DFF566 /* Pods_TestHotmart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65691AF26468D0A160F048AB /* Pods_TestHotmart.framework */; };
 /* End PBXBuildFile section */
 
@@ -96,13 +106,26 @@
 		C60544B21DFF0A98003CEB73 /* MessageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCollectionViewCell.swift; sourceTree = "<group>"; };
 		C60544B41DFF0DFA003CEB73 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
 		C60544B61DFF2E5E003CEB73 /* SaleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaleTableViewCell.swift; sourceTree = "<group>"; };
-		C60544BC1DFF5461003CEB73 /* ExampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleData.swift; sourceTree = "<group>"; };
 		C60544BE1DFF54C6003CEB73 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
 		C60544C01DFF5FBE003CEB73 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		C60545001DFFC4CC003CEB73 /* PeopleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleCollectionViewCell.swift; sourceTree = "<group>"; };
 		C60545021DFFC4DD003CEB73 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		C60545041DFFC50C003CEB73 /* TableViewCellToUseWithCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellToUseWithCollectionView.swift; sourceTree = "<group>"; };
 		C60545061DFFC529003CEB73 /* OthersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OthersTableViewCell.swift; sourceTree = "<group>"; };
+		C605450F1DFFE92D003CEB73 /* People.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		C60545111DFFED04003CEB73 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		C60545131DFFEE80003CEB73 /* MessageContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageContent.swift; sourceTree = "<group>"; };
+		C60545151E004A66003CEB73 /* Sale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sale.swift; sourceTree = "<group>"; };
+		C60545171E005BAC003CEB73 /* me.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = me.json; sourceTree = "<group>"; };
+		C60545181E005BAC003CEB73 /* messages.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = messages.json; sourceTree = "<group>"; };
+		C60545191E005BAC003CEB73 /* sales.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sales.json; sourceTree = "<group>"; };
+		C605451D1E005D23003CEB73 /* ReadingFilesJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingFilesJSON.swift; sourceTree = "<group>"; };
+		C60545211E008F7D003CEB73 /* Example.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		C60545241E009A61003CEB73 /* AleatoryColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AleatoryColor.swift; sourceTree = "<group>"; };
+		C60545261E009F72003CEB73 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		C60545271E009F72003CEB73 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		C605452B1E00A11D003CEB73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C605452D1E00A133003CEB73 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		DA059EE3742606F1341C6C50 /* Pods_TestHotmartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestHotmartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5D208130B2DE67FB6FE306 /* Pods-TestHotmartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestHotmartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestHotmartTests/Pods-TestHotmartTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -176,6 +199,7 @@
 				C60544911DFE773E003CEB73 /* Utils */,
 				C605448A1DFE76C5003CEB73 /* Custom TabBar */,
 				C605445C1DFE7588003CEB73 /* AppDelegate.swift */,
+				C605450A1DFFE75D003CEB73 /* Models */,
 				C605449D1DFE7787003CEB73 /* Menu */,
 				C605449C1DFE7782003CEB73 /* Dashboard */,
 				C605449B1DFE777A003CEB73 /* Messages */,
@@ -220,7 +244,9 @@
 		C60544911DFE773E003CEB73 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				C605452E1E00A1A2003CEB73 /* Localizable Strings */,
 				C60544AA1DFE8CD6003CEB73 /* Data example */,
+				C60545231E009A3B003CEB73 /* Others */,
 				C60544931DFE774F003CEB73 /* Extension */,
 				C60544921DFE7749003CEB73 /* Enum */,
 			);
@@ -290,8 +316,12 @@
 		C60544AA1DFE8CD6003CEB73 /* Data example */ = {
 			isa = PBXGroup;
 			children = (
+				C605451D1E005D23003CEB73 /* ReadingFilesJSON.swift */,
+				C60545211E008F7D003CEB73 /* Example.swift */,
+				C60545171E005BAC003CEB73 /* me.json */,
+				C60545181E005BAC003CEB73 /* messages.json */,
+				C60545191E005BAC003CEB73 /* sales.json */,
 				C60544AD1DFE8DBE003CEB73 /* user.jpg */,
-				C60544BC1DFF5461003CEB73 /* ExampleData.swift */,
 			);
 			name = "Data example";
 			sourceTree = "<group>";
@@ -302,6 +332,65 @@
 				C60544B01DFE8FFD003CEB73 /* NotificationViewController.swift */,
 			);
 			name = Notifications;
+			sourceTree = "<group>";
+		};
+		C605450A1DFFE75D003CEB73 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C605450E1DFFE782003CEB73 /* People */,
+				C605450D1DFFE780003CEB73 /* Message */,
+				C605450B1DFFE768003CEB73 /* Sale */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C605450B1DFFE768003CEB73 /* Sale */ = {
+			isa = PBXGroup;
+			children = (
+				C60545151E004A66003CEB73 /* Sale.swift */,
+			);
+			name = Sale;
+			sourceTree = "<group>";
+		};
+		C605450C1DFFE77B003CEB73 /* Message Content */ = {
+			isa = PBXGroup;
+			children = (
+				C60545131DFFEE80003CEB73 /* MessageContent.swift */,
+			);
+			name = "Message Content";
+			sourceTree = "<group>";
+		};
+		C605450D1DFFE780003CEB73 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				C60545111DFFED04003CEB73 /* Message.swift */,
+				C605450C1DFFE77B003CEB73 /* Message Content */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		C605450E1DFFE782003CEB73 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				C605450F1DFFE92D003CEB73 /* People.swift */,
+			);
+			name = People;
+			sourceTree = "<group>";
+		};
+		C60545231E009A3B003CEB73 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C60545241E009A61003CEB73 /* AleatoryColor.swift */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		C605452E1E00A1A2003CEB73 /* Localizable Strings */ = {
+			isa = PBXGroup;
+			children = (
+				C605452C1E00A11D003CEB73 /* Localizable.strings */,
+			);
+			name = "Localizable Strings";
 			sourceTree = "<group>";
 		};
 		EDCD7F3CB3DD38FF03A4163E /* Frameworks */ = {
@@ -415,6 +504,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = C60544501DFE7588003CEB73;
 			productRefGroup = C605445A1DFE7588003CEB73 /* Products */;
@@ -433,10 +523,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C605451C1E005BAC003CEB73 /* sales.json in Resources */,
 				C60544671DFE7588003CEB73 /* LaunchScreen.storyboard in Resources */,
+				C605451A1E005BAC003CEB73 /* me.json in Resources */,
 				C60544641DFE7588003CEB73 /* Assets.xcassets in Resources */,
 				C60544AE1DFE8DBE003CEB73 /* user.jpg in Resources */,
+				C605452A1E00A11D003CEB73 /* Localizable.strings in Resources */,
 				C60544621DFE7588003CEB73 /* Main.storyboard in Resources */,
+				C605451B1E005BAC003CEB73 /* messages.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,6 +693,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C60545221E008F7D003CEB73 /* Example.swift in Sources */,
 				C60544981DFE7763003CEB73 /* UIColor.swift in Sources */,
 				C60544901DFE7738003CEB73 /* CustomTabBarViewController.swift in Sources */,
 				C60544B51DFF0DFA003CEB73 /* UICollectionViewCell.swift in Sources */,
@@ -608,18 +703,23 @@
 				C60545071DFFC529003CEB73 /* OthersTableViewCell.swift in Sources */,
 				C60544B31DFF0A98003CEB73 /* MessageCollectionViewCell.swift in Sources */,
 				C605445D1DFE7588003CEB73 /* AppDelegate.swift in Sources */,
+				C60545121DFFED04003CEB73 /* Message.swift in Sources */,
 				C60545031DFFC4DD003CEB73 /* TableViewCell.swift in Sources */,
+				C60545141DFFEE80003CEB73 /* MessageContent.swift in Sources */,
 				C60544BF1DFF54C6003CEB73 /* Array.swift in Sources */,
 				C605448F1DFE7738003CEB73 /* CustomTabBarItem.swift in Sources */,
 				C60544A91DFE8A01003CEB73 /* ImageName.swift in Sources */,
 				C60544A51DFE7D0B003CEB73 /* SaleViewController.swift in Sources */,
 				C60544A31DFE7CE1003CEB73 /* MessageViewController.swift in Sources */,
 				C60545051DFFC50C003CEB73 /* TableViewCellToUseWithCollectionView.swift in Sources */,
+				C60545161E004A66003CEB73 /* Sale.swift in Sources */,
 				C60544C11DFF5FBE003CEB73 /* UIViewController.swift in Sources */,
 				C60544A71DFE88F4003CEB73 /* MenuTableViewCell.swift in Sources */,
-				C60544BD1DFF5461003CEB73 /* ExampleData.swift in Sources */,
+				C60545101DFFE92D003CEB73 /* People.swift in Sources */,
 				C60545011DFFC4CC003CEB73 /* PeopleCollectionViewCell.swift in Sources */,
+				C60545251E009A61003CEB73 /* AleatoryColor.swift in Sources */,
 				C60544991DFE7763003CEB73 /* String.swift in Sources */,
+				C605451E1E005D23003CEB73 /* ReadingFilesJSON.swift in Sources */,
 				C60544951DFE775C003CEB73 /* Color.swift in Sources */,
 				C60544A11DFE79B9003CEB73 /* DashBoardViewController.swift in Sources */,
 				C60544B71DFF2E5E003CEB73 /* SaleTableViewCell.swift in Sources */,
@@ -662,6 +762,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C60544611DFE7588003CEB73 /* Base */,
+				C60545261E009F72003CEB73 /* pt-BR */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -670,8 +771,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				C60544661DFE7588003CEB73 /* Base */,
+				C60545271E009F72003CEB73 /* pt-BR */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C605452C1E00A11D003CEB73 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C605452B1E00A11D003CEB73 /* en */,
+				C605452D1E00A133003CEB73 /* pt-BR */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -681,6 +792,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -695,6 +807,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -731,6 +844,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -745,6 +859,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

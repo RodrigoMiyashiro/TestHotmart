@@ -1,0 +1,74 @@
+[
+	{
+  	"userLocal": {
+    	"userName": "Ricardo Ac",
+    	"userId": 1,
+    	"userEmail": "ricardo@email.com.br",
+    	"userPhoto": "user.jpg"
+  	},
+  	"userRemote": {
+    	"userName": "Pedro Matos",
+    	"userId": 2,
+    	"userEmail": "pm@email.com.br",
+    	"userPhoto": "user.jpg"
+  	},
+  	"messageId": 1,
+  	"messageDate": "2016-06-25T00:00:00.000Z",
+  	"messageIsActive": true,
+  	"messagesContents": {}
+	},
+	{
+	"userLocal": {
+	    "userName": "Ricardo Ac",
+	    "userId": 1,
+	    "userEmail": "ricardo@email.com.br",
+	    "userPhoto": "user.jpg"
+	  },
+	  "userRemote": {
+	    "userName": "Valéria Ciqueira",
+	    "userId": 3,
+	    "userEmail": "vc@email.com.br",
+	    "userPhoto": ""
+	  },
+	  "messageId": 2,
+	  "messageDate": "2016-06-26T00:00:00.000Z",
+	  "messageIsActive": true,
+	  "messagesContents": {}
+	},
+	{
+	  "userLocal": {
+	    "userName": "Ricardo Ac",
+	    "userId": 1,
+	    "userEmail": "ricardo@email.com.br",
+	    "userPhoto": "user.jpg"
+	  },
+	  "userRemote": {
+	    "userName": "Maria Carol",
+	    "userId": 4,
+	    "userEmail": "mc@email.com.br",
+	    "userPhoto": ""
+	  },
+	  "messageId": 3,
+	  "messageDate": "2016-06-27T00:00:00.000Z",
+	  "messageIsActive": true,
+	  "messagesContents": {}
+	},
+	{
+	  "userLocal": {
+	    "userName": "Ricardo Ac",
+	    "userId": 1,
+	    "userEmail": "ricardo@email.com.br",
+	    "userPhoto": "user.jpg"
+	  },
+	  "userRemote": {
+	    "userName": "Flávia de Alcantra",
+	    "userId": 5,
+	    "userEmail": "fa@email.com.br",
+	    "userPhoto": ""
+	  },
+	  "messageId": 4,
+	  "messageDate": "2016-06-28T00:00:00.000Z",
+	  "messageIsActive": true,
+	  "messagesContents": {}
+	}
+]

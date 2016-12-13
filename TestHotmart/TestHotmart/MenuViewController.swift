@@ -44,19 +44,24 @@ class MenuViewController: UITableViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "segueMessage" {
+        if segue.identifier == "segueDashboard" {
             let destination = segue.destination as! CustomTabBarViewController
             destination.selectedIndex = 0
         }
         
-        if segue.identifier == "segueSales" {
+        if segue.identifier == "segueMessage" {
             let destination = segue.destination as! CustomTabBarViewController
             destination.selectedIndex = 1
         }
         
-        if segue.identifier == "segueNotification" {
+        if segue.identifier == "segueSales" {
             let destination = segue.destination as! CustomTabBarViewController
             destination.selectedIndex = 2
+        }
+        
+        if segue.identifier == "segueNotification" {
+            let destination = segue.destination as! CustomTabBarViewController
+            destination.selectedIndex = 3
         }
     }
 
@@ -73,6 +78,19 @@ extension MenuViewController {
         let cell = menuTableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! MenuTableViewCell
         
         let row = indexPath.row
+        
+        if row == LeftMenu.affiliates.rawValue {
+            cell.lblNumberIndicator.isHidden = false
+            cell.lblNumberIndicator.text = " 121 "
+        }
+        if row == LeftMenu.messages.rawValue {
+            cell.lblNumberIndicator.isHidden = false
+            cell.lblNumberIndicator.text = " +50 "
+        }
+        if row == LeftMenu.notifications.rawValue {
+            cell.lblNumberIndicator.isHidden = false
+            cell.lblNumberIndicator.text = " 15 "
+        }
         
         
         if let imgName = ImageName(rawValue: row) {

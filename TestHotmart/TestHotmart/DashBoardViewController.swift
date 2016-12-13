@@ -8,6 +8,7 @@
 
 import UIKit
 import SWRevealViewController
+import JSONJoy
 
 class DashBoardViewController: UIViewController {
     
@@ -28,6 +29,8 @@ class DashBoardViewController: UIViewController {
         super.viewDidLoad()
         
         showMenu()
+        
+        
     }
     
     func showMenu() {
@@ -59,6 +62,8 @@ class DashBoardViewController: UIViewController {
     }
     
     
+    
+    
 
     /*
     // MARK: - Navigation
@@ -76,7 +81,7 @@ class DashBoardViewController: UIViewController {
 // MARK: - TableView DataSource
 extension DashBoardViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return sales.count + 1
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -88,7 +93,7 @@ extension DashBoardViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell: TableViewCell!
+        var cell =  TableViewCell()
         let row = indexPath.row
         var sideIndicatorColor: String!
         
@@ -104,6 +109,11 @@ extension DashBoardViewController: UITableViewDataSource {
             cell = dashboardTableView.dequeueReusableCell(withIdentifier: CellIdentifier, for: indexPath) as! OthersTableViewCell
             
             sideIndicatorColor = Color.blue.rawValue
+            
+//            let newRow = indexPath.row - 1
+//            let sale = sales[newRow]
+            
+//            cell.lblDescription.text = sale.saleDescription
         }
         
         var color = UIColor()
@@ -115,7 +125,7 @@ extension DashBoardViewController: UITableViewDataSource {
         }
         
         cell.sideIndicator.backgroundColor = UIColor(hex: sideIndicatorColor)
-        cell?.backgroundColor = color
+        cell.backgroundColor = color
         
         
         return cell
@@ -135,7 +145,7 @@ extension DashBoardViewController: UITableViewDelegate {
 extension DashBoardViewController : UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 6
+        return messages.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -147,8 +157,28 @@ extension DashBoardViewController : UICollectionViewDataSource {
         cell.imgUserPhoto.clipsToBounds = true
         cell.imgUserPhoto.backgroundColor = UIColor.blue
         
+        //
+        let item = indexPath.item
+        let msg = messages[item]
+        let name = msg.userRemote.name
+        let photo = msg.userRemote.photo
+        if photo != "" {
+            cell.imgUserPhoto.image = UIImage(named: photo)
+            cell.lblInitialLetter.isHidden = true
+        }
+        else {
+            let color = AleatoryColor.generate()
+            cell.imgUserPhoto.backgroundColor = UIColor(hex: color)
+            
+            cell.lblInitialLetter.isHidden = false
+            cell.lblInitialLetter.text = String.initialLetter(name: name)
+        }
+        
+        cell.lblUserName.text = msg.userRemote.name
+        
         return cell
     }
+    
 }
 
 
